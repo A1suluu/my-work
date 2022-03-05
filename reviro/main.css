@@ -4,12 +4,18 @@
     box-sizing: border-box;
     font-family: Italic;
 }
-li, .subheader, .last_footer, .secondNewsTitle, .aLN, .nav1, .footer_nav  {
+li, .subheader, .last_footer, .secondNewsTitle, .aLN, .nav1, .footer_nav, .search_button  {
     color: #fff;
 }
-a,li, h2 {
+a,li, h2, button{
     text-decoration: none;
     font: 600 12px/1 Arial,Helvetica,sans-serif;
+}
+.last_footer, .search_button {
+    background-color: rgb(70, 77, 119);
+}
+.aLN, .aSNT {
+    background-color: brown;
 }
 #block_menu, .secondNews, .footer_border, .last_footer {
     width: 1010px;
@@ -91,7 +97,6 @@ a,li, h2 {
 }
 .aSNT {
     font-size: 12px;
-    background-color: brown;
     padding: 6px 6px 6px 6px;
 }
 .lastNews {
@@ -104,19 +109,46 @@ a,li, h2 {
 }
 .aLN {
     font-size: 12px;
-    background-color: brown;
     padding: 6px 6px 6px 14px;
     height: 26px;
     margin-top: 19px;
 }
 
-.searching_box {
-    display: grid;
-    grid-template-columns: 700px 100px;
-    gap: 45px;
+.searching_b_1 {
+    background-color: #f3eeeb;
     margin: 40px 40px;
-    border: 3px solid rgb(44, 132, 204);  
+    height: 240px;
+}
+.search_input{
+     padding: 0 33px 0 20px;
+ }
+i {
+    padding: 10px 11px 7px;
+    font-size: 10px;
+
+}
+.search_button {
+    padding: 7px 7px;
+    margin-left: 10px;
+}
+.search_input, i {
+
+    background-color: rgb(255, 253, 253);
+    color: #333;
+}
+.search_input , i, .search_button {
+    height: 28px;
+    border: 0;
+}
+.searching_b_1 , .searching_b_2 {
     padding: 20px;
+}
+.searching_b_2 {
+    display: grid;
+    grid-template-columns: 600px 100px;
+    gap: 45px;
+    border: 3px solid rgb(44, 132, 204);  
+    margin: 40px 40px;
 }
 footer {
     background-color: #47a0e2;
@@ -132,8 +164,10 @@ footer {
     align-items: center;
     cursor: pointer;
     text-align: center;
-    border-radius: 2px;
     transition: color .25s ease-out,background-color .25s ease-out;
+}
+.footer_nav, a, button {
+    border-radius: 2px;
 }
 .nav1 {
     background-color: rgb(70, 77, 119);
@@ -168,6 +202,5 @@ li {
     border-bottom: solid 1px rgb(219, 217, 217); 
 }
 .last_footer {
-    background-color: rgb(70, 77, 119);
     padding: 17px;
 }
