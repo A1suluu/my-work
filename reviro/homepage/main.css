@@ -108,10 +108,11 @@ a,li, h2, button{
     text-align: center;
 }
 .aLN {
-    font-size: 12px;
-    padding: 6px 6px 6px 14px;
-    height: 26px;
-    margin-top: 19px;
+    font-size: 19px;
+    padding: 14px 6px 6px 14px;
+    height: 50px;
+    margin-top: 10px;
+    width: 200px;
 }
 
 .searching_b_1 {

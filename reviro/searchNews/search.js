@@ -1,10 +1,11 @@
 document.addEventListener("DOMContentLoaded" , () => { 
-
-const searchForm = document.querySelector(".search")
-const input = document.querySelector(".input")
+    
+const searchForm = document.querySelector(".searchNews")
+const input = document.querySelector(".inpt_serch_news")
 const newList = document.querySelector(".news-list")
+const searchButton = document.querySelector(".search_button")
 
-searchForm.addEventListener("submit", retrieve)
+searchButton.addEventListener("click", retrieve)
 
 function retrieve (e) {
     if (input.value == " ") {
@@ -19,7 +20,7 @@ function retrieve (e) {
     let topic = input.value;
 
     let url = `https://newsapi.org/v2/everything?q=${topic}&apiKey=${apiKey}`
-
+    
     fetch(url).then((res) => {
         return res.json()
     }).then((data) => {
@@ -32,8 +33,15 @@ function retrieve (e) {
             a.textContent = article.title
             li.appendChild(a)
             newList.appendChild(li)
+            
+            let conteiner = document.querySelector(".searching_b_1")
+            // let newListWidth = window.getComputedStyle(newList).height
+            // conteiner.style.height = `${240}px` + newListWidth
+            // conteiner.style.height = newListWidth
+            // console.log(newListWidth)
+           conteiner.style.height = `${100}%`
+
         })
-        
     }).catch((error) => {
         console.log(error)
     })
