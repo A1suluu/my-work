@@ -26,6 +26,11 @@ function retrieve (e) {
         return res.json()
     }).then((data) => {
         console.log(data)
+    
+            let totalResults = document.querySelector(".totalResults")
+            totalResults.textContent = `${"Total Results:" + data.totalResults}` 
+        
+
         data.articles.forEach(article => {
             let li = document.createElement("li")
             let a = document.createElement("a")
