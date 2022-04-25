@@ -1,16 +1,14 @@
-let n = prompt()
-
 function isPalindrome(n) {
-    let compareNum;
+    let middle;
 
     if ( n.length % 2 === 0 ) {
-        compareNum = n.length / 2
+        middle = n.length / 2
     } else {
-        compareNum = n.length / 2 + 0.5
+        middle = n.length / 2 + 0.5
     }
     
     let k = 0
-    for (let i = 0; i < compareNum; i++) {
+    for (let i = 0; i < middle; i++) {
         let a = n[i]
         let b = n[n.length-i-1]
         if ( a === b ) {
@@ -19,15 +17,21 @@ function isPalindrome(n) {
     }
 
     
-    if (k === compareNum) console.log("Палиндром")
+    if (k === middle) console.log("Палиндром")
     else console.log("Не палиндром")
     console.log(middle)
 }
+
+
+let n = prompt()
 
 
 while ( n != '0' ) {
     isPalindrome(n)    
     n = prompt()
 }
+
+// функция которая сравничает значение слова и находит максимальный не палиндром из числа
+
 
 
