@@ -17,19 +17,23 @@ function isPalindrome(n) {
     }
 
     
-    if (k === middle) console.log("Палиндром")
+    if (k === middle){
+        console.log("Палиндром")
+        
+        let result = n.slice(0,-1);
+        console.log(result);
+    } 
     else console.log("Не палиндром")
-    console.log(middle)
 }
 
 
-let n = prompt()
+let n = "non"
+isPalindrome(n)    
+ 
 
 
-while ( n != '0' ) {
-    isPalindrome(n)    
-    n = prompt()
-}
+
+
 
 // функция которая сравничает значение слова и находит максимальный не палиндром из числа
 

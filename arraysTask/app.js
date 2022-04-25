@@ -5,20 +5,22 @@
 // массива. Определить количество учеников, рост которых не пре-
 // вышает значения r.
 
-// let heights = [
-// 	100, 110, 120, 130, 140, 160, 
-// 	180, 200, 210, 148, 139, 165, 
-// 	163, 178, 170, 154, 149, 158,
-// 	199, 235, 289, 267
-// ]
+let heights = [
+	100, 110, 120, 130, 140, 160, 
+	180, 200, 210, 148, 139, 165, 
+	163, 178, 170, 154, 149, 158,
+	199, 235, 289, 267
+]
 
-// let r = 5
+let r = 140
+let col = 0
+for(let i = 0; i < heights.length; i++){
+    if(heights[i] <= r){
+        col++
+    }
+}
 
-// for (let i = 0; i < heights.length; i++) {
-//     if (i == r) {
-//         console.log(heights[i])
-//     }
-// }
+console.log(col)
 
 
 
@@ -59,29 +61,11 @@
 // ]
 
 
-// let array1 = arrs.slice([0], [6])
-// let array2 = arrs.slice([7], [12])
-// let array3 =  arrs.slice([13], [18])
-// let array4 = arrs.slice([19], [24])
-
-// let allArr = [array1, array2,array3, array4]
-// console.log(allArr)
 
 // let couple = [] 
 // let maxCouple;
 
-
-// for (let i = 1; i < allArr.length; i++) {
-//     couple = allArr[i - 1] + allArr[i]
-//     // maxCouple = Math.max(...couple)
-
-//     console.log(couple)
+// for (let i = 1; i < arrs.length; i++) {
+// 	console.log(arrs[i - 1] + arrs[i]);
 // }
-
-
-let arr = [1, 2, 3, 4, 5];
-
-for (let i = 1; i < arr.length; i++) {
-	console.log(arr[i - 1] + arr[i]);
-}
 
