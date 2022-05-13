@@ -1,0 +1,34 @@
+header {
+    width: 1520px;
+    font-family: sans-serif;
+    display: flex;
+    font-size: 24px;
+    padding: 10px 30px;
+    justify-content: space-between;
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    height: 100px;
+    width: 100vw;
+
+}
+.header-links {
+    margin-right: 630px;
+    display: flex;
+}
+.header-a, .header-signup{
+    padding: 0 30px 0px 0px;
+    font-size: 19px;
+    margin-top: 30px;
+}
+.header-register{
+    border: 1px solid #767676;
+    border-radius: 5%;
+    padding: 16px 13px;
+}
+
+.header-register:hover {
+    border: 1px solid black;
+    color: black;
+}
+
+
