@@ -40,15 +40,7 @@ function retrieve (e) {
             newList.appendChild(li)
             
             let conteiner = document.querySelector(".searching_b_1")
-            // let newListWidth = window.getComputedStyle(newList).height
-            // conteiner.style.height = `${240}px` + newListWidth
-            // conteiner.style.height = newListWidth
-            // console.log(newListWidth)
             conteiner.style.height = `${100}%`
-            
-            // let img = document.createElement("img")
-            // img.setAttribute("scr", article.urlToImage)
-            // li.appendChild(img)
     
            
         })

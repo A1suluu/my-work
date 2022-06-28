@@ -1,0 +1,42 @@
+* {
+    text-align: center;
+}
+.home_titile {
+    font-family:Thai;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 45px;
+}
+.home_desc {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+}
+.home_video {
+    height: 350px;
+    width: 500px;
+    margin: auto;
+    border: 1px solid black;
+    display: flex;
+}
+
+.h_advDiv {
+    margin: auto;
+    height: 90px;
+    width: 94px;
+    box-shadow: 0px 10px 19px 0px #1c1b1b26;
+    border-radius: 4.36875px;
+    border: 1 px solid #137CF9;
+    border-radius: 50%;
+    background: #137CF9;
+}
+.home_advButton {
+	width: 0;
+    padding: 0px 0px;
+	height: 0;
+    border-top: 20px solid transparent;
+    border-right: 40px solid rgb(255, 255, 255);
+    border-bottom: 29px solid transparent;
+}
+
+
