@@ -1,0 +1,42 @@
+.datesSearch__input{
+    width: 156px;
+    height: 71px;
+    border: none;
+    font-size: 14px;
+    font-style: normal;
+    color: #443E3E;
+    text-align: center;
+    
+}
+.datesSearch__input::-webkit-calendar-picker-indicator {
+    margin-right: 10px;
+    background: url(../../../../../assets/icons/calendar-icon.svg) no-repeat center;
+    background-size: contain;
+  }
+
+.datesSearch{
+      display: flex;
+      gap: 1px;
+      display: flex;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 1130px) {
+	.datesSearch{
+		justify-content: center;
+	}
+    .datesSearch__input{
+        width: 40em;
+    }
+
+}
+@media (max-width: 600px) {
+	.datesSearch__input{
+        width: 30em;
+    }
+}
+@media (max-width: 450px) {
+    .datesSearch__input{
+        width: 20em;
+    }
+}

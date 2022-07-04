@@ -1,0 +1,160 @@
+.passengerSearch{
+    width: 221px;
+    border: none;
+    height: 71px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    padding: 27px 29px;
+    text-align: center;
+
+}
+
+.passengerSearch__dropdown{
+    position: relative;
+    margin-top: 1px;
+    background-color: white;
+    display: table;
+    width: 221px;
+    height: 271px;
+   
+}
+
+.passengerSearch__components{
+    margin-top: 20px;
+    display: block;
+}
+
+.passengerSearch__passengerComponent{
+    display: flex;
+    width: 194px;
+    height: 31px;
+    align-content: center;
+    align-items: center;
+}
+
+.incDecCounter__passengerCount{
+    display: flex;
+    width: 73px;
+    height: 24px;
+    margin-left: 20px;
+}
+
+.btn-outline-primary{
+    border: none;
+    
+    width: 24px;
+    height: 24px;
+    
+}
+
+.incDecCounter__form-control{
+    border: none;
+    width: 20px;
+    text-align: center;
+}
+::-webkit-inner-spin-button {
+    display: none; 
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.passengerSearch__passengerItem{
+    width: 99px;
+    height: 35px;
+    margin-left: 13px;
+}
+
+.passengerSearch__passengerCategory{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: black;
+    width: 43px;
+    height: 17px;
+}
+
+.passengerSearch__passengerCategoryInfo{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #999999;
+    display: flex;
+    height: 15px;
+    width: 99px;
+}
+
+.selectClass{
+    margin-top: 36px;
+    position: absolute;
+    height: 18px;
+    margin-left: 13px;
+}
+
+.selectClass__economyclass{
+    line-height: 17px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    width: 86px;
+}
+
+.selectClass__businessclass{
+    margin-top: 15px;
+    line-height: 17px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    width: 86px;
+}
+
+
+
+@media (max-width: 1130px) {
+	.passengerSearch{
+		justify-content: center;
+        width: 40em;
+        
+	}
+    .passengerSearch__dropdown{
+        width: 31em;
+    }
+    .passengerSearch__components{
+        padding-left: 10em;
+    }
+    .selectClass{
+        padding-left: 10em;
+    }
+
+}
+@media (max-width: 600px) {
+    .passengerSearch{
+		justify-content: center;
+        width: 30em;
+        
+	}
+    .passengerSearch__dropdown{
+        width: 23em;
+    }
+    .passengerSearch__components{
+        padding-left: 5em;
+    }
+    .selectClass{
+        padding-left: 5em;
+    }
+	
+}
+@media (max-width: 450px) {
+    .passengerSearch{
+        width: 20em;
+    }
+    .passengerSearch__dropdown{
+        width: 15.5em;
+    }
+    .passengerSearch__components{
+        padding-left: 0;
+    }
+}
+ 

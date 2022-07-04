@@ -1,0 +1,239 @@
+
+.main_conteiner {
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto 20px;
+	max-width: 812px;
+	box-shadow: 0 0 14px 0;
+  }
+  .conteiner {
+	display: flex;
+	justify-content: space-between;
+	width: 812px;
+  }
+  .blueSideBar {
+	padding: 40px 60px;
+	background: #2e6ce7;
+	width: 365px;
+  }
+  
+  .blueSignUp {
+	margin-bottom: 211px;
+	display: flex;
+	flex-direction: column;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 17px;
+	text-align: center;
+	color: #ffffff;
+  }
+  
+  .blueAviasatuu {
+	margin-bottom: 20px;
+	font-weight: 800;
+	font-size: 48px;
+	line-height: 49px;
+	color: #ffffff;
+	text-align: center;
+  }
+  
+  .blueLongText {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 150%;
+	text-align: center;
+	color: #ffffff;
+  }
+  
+  .whiteSideBar {
+	padding: 45px 70px;
+	background: #ffffff;
+  }
+  
+  .formReg {
+	margin-bottom: -5px;
+  }
+  
+  .join_text {
+	margin-bottom: 25px;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 150%;
+	color: #443e3e;
+  }
+  
+  .loggmfcb {
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 70px;
+  }
+  
+  .logIngmailLink {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+  }
+  .logIngmailLink img,
+  .LogInFacebookLink img {
+	width: 50px;
+	height: 50px;
+	margin-bottom: 10px;
+  }
+  .LogInFacebookLink {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+  }
+  
+  .regGmail {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 17px;
+	color: #000000;
+  }
+  
+  .regfacebook {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 17px;
+	color: #000000;
+  }
+  
+  .email_cl,
+  .password_cl {
+	padding-bottom: 15px;
+	padding-right: 10px;
+	margin-bottom: 40px;
+	width: 100%;
+	display: inline-block;
+	background: #f1f1f1;
+	border: none;
+	border-bottom: 1px solid #999999;
+	background-color: transparent;
+	color: inherit;
+	outline: none;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 150%;
+	color: #443e3e;
+  }
+  
+  .password_cl:last-child {
+	margin-bottom: 30px;
+  }
+  
+  .email_cl::placeholder,
+  .password_cl::placeholder {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 150%;
+	color: #999999;
+  }
+  
+  .email_cl:focus,
+  .password_cl:focus {
+	background-color: #ddd;
+	outline: none;
+  }
+  
+  .circle_rem label {
+	display: flex;
+	align-items: center;
+  }
+  .circle_rem {
+	margin-bottom: 50px;
+  }
+  
+  label .remember {
+	margin-right: 10px;
+	height: 17px;
+	width: 17px;
+	border-radius: 100%;
+	cursor: pointer;
+  }
+  
+  .rememberMe {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 17px;
+	color: #999999;
+  }
+  
+  .signUpBtn {
+	display: block;
+	padding: 15px 0;
+	width: 307px;
+	margin: 0 auto 20px;
+	background: #e65425;
+	border: none;
+	cursor: pointer;
+	opacity: 0.9;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 150%;
+	color: #ffffff;
+  }
+  
+  .signUpBtn:hover {
+	opacity: 1;
+  }
+  
+  .signInAll {
+	display: flex;
+	justify-content: space-around;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 17px;
+	color: #443e3e;
+  }
+  
+  .signInText {
+	position: relative;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 17px;
+	color: #443e3e;
+  }
+  
+  .signinP {
+	position: relative;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 17px;
+	color: #e65425;
+  }
+  
+  @media (max-width: 880px) {
+	.main_conteiner {
+	  width: 100%;
+	}
+	.conteiner {
+	  flex-wrap: wrap;
+	}
+	.blueSideBar {
+	  width: 100%;
+	}
+	.blueSignUp {
+	  margin-bottom: 50px;
+	}
+	.join_text {
+	  text-align: center;
+	}
+  }
+  
+  @media (max-width: 500px) {
+	.signUpBtn {
+	  width: 100%;
+	}
+	.loggmfcb {
+	  display: block;
+	}
+	.logIngmail {
+	  margin-bottom: 30px;
+	}
+	.blueSideBar,
+	.whiteSideBar {
+	  padding: 40px 10px;
+	}
+  }
