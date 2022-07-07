@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import './Home.css';
 import Search from './search/Search';
 import Slogan from './slogan/Slogan';
 
